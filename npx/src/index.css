@@ -1,0 +1,27 @@
+/* src/index.css o src/App.css */
+
+/* src/index.css o src/App.css */
+
+html, body {
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; /* Ocupa el espacio disponible entre el Navbar y el Footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente el contenido, útil para la página de registro */
+}
+
+footer {
+  margin-top: auto; /* Empuja el footer al final */
+}
